@@ -1,0 +1,17 @@
+web - html
+
+web, ftp, email, ... ∈ internet
+
+1960 internet invented
+1990 web invented
+     [WS(web server) ↔ WB(web browser) ... protocol http & lang. HTML] : public domain
+
+*
+          ┌ server ┐          ┌ client ┐
+ find     │        │          │        │ finally test.fe shown
+ test.fe  │   WS   │          │ WB(WC) │ https://e.g.com/test.fe
+        ↓ │   OS   │ Internet │   OS   │ ↓
+        ↓ │HardWare│ ←─────── │HardWare│ ↓
+          └────────┘ ───────→ └────────┘
+          
+>> *.html files afford rich info.
