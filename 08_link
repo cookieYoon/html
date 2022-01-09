@@ -1,0 +1,4 @@
+hypertext (of html) == link
+
+<a href = "URL" title = "detail" target = "object">text</a>
+*examples of object: _self, _blank, _parent
