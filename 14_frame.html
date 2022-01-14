@@ -1,0 +1,24 @@
+<!-- frame: slicing a screen of a html file into several parts -->
+<!-- difference between frame and iframe: tag iframe creates site frames individually -->
+<!-- caution: after HTML5 frame became unrecommended tag to use -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns = "https://github.com/cookie-yoon">
+  <frameset cols = "20% 30%">
+    <frameset rows = "50% 60%">
+      <frame src = "a.html"/>
+      <frame src = "b.html"/>
+    </frameset>
+    <frame name = "content" src = "c.html"/>
+    <noframes>
+      <body>
+        <p>This frameset document contains: </p>
+        <ul>
+          <li><a href = "a.html">a</a></li>
+          <li><a href = "b.html">b</a></li>
+          <li><a href = "c.html">c</a></li>
+        </ul>
+      </body>
+    </noframes>
+  </frameset>
+</html>
