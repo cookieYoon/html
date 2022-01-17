@@ -1,0 +1,8 @@
+the information under tag head refers to the html file; it is meta data
+e.g. which javascript is used in the file
+
+- tag meta, especially charset stands for set character code used in encoding
+
+- tag title contains the text located in header
+
+- tag link can be used to set a favicon
