@@ -1,0 +1,7 @@
+client requests the information
+server responds and provides it
+
+the process
+1. enter an address into web browser(client software)
+2. a hardware(client) requests the information to the matched hardware(server)
+3. the server provides the information from web server(server software) to client
