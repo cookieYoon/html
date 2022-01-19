@@ -5,6 +5,43 @@
   <body>
     <fieldset>
       <legend>
-        get
+        GET
       </legend>
-      <form action = "21-2.php" method = "GET">
+      <form action = "./21-2.php" method = "GET">
+        <p>
+          name: 
+          <input type = "text" name = "name"/>
+          <br/>
+        </p>
+        <p>
+          gender: 
+          <select name = "gender">
+            <option value = "m">m</option>
+            <option value = "f">f</option>
+          </select>
+        </p>
+        <input type = "submit" value = "confirm"/>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>
+        POST
+      </legend>
+      <form action = "./21-2.php" method = "POST">
+        <p>
+          name: 
+          <input type = "text" name = "name"/>
+          <br/>
+        </p>
+        <p>
+          gender: 
+          <select name = "gender">
+            <option value = "m">m</option>
+            <option value = "f">f</option>
+          </select>
+        </p>
+        <input type = "submit" value = "confirm"/>
+      </form>
+    </fieldset>
+  </body>
+</html>
